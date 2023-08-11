@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header .container  {
+    display:flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+header .container .wp-logo{
+    margin-left: 10px;
+}
+header .navbar .center-navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+    margin-left: 250px;
+}
+    header .container .right-navbar ul{
+        display: flex;
+        justify-content:space-around;
+        gap: 30px;
+        margin-left: 200px;
+    }
+    header .navbar .center-navbar ul li a{
+        font-size: 13px;
+        font-weight:bolder;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    }
+    header .container .right-navbar ul li button{
+        /* height: 70px; */
+        width: 100px;
+    }
+    header .container .right-btn ul li button {
+        margin-left: 100px;
+        height: 50px;
+        width: 100px;
+        background-color: rgb(26, 180, 12);
+        border: 2px solid black;
+        border-radius: 18px;
+    }
+    header .container .right-btn ul li button a{
+        color:white;
+    }
+    .sec-one p{
+        margin: 5rem 30rem;
+        font-size: larger;
+    }
+    

@@ -1,0 +1,232 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header .container{
+    background: #e5e5e5;
+    height: 90px;
+    line-height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+header .navbar .right-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+header .container .logo-img img{
+    height: 129px;
+    width: 100px;
+    object-fit: cover;
+    margin-right: 780px;
+}
+
+
+
+header .navbar .right-list ul{
+    display: flex;
+}
+header .navbar .right-list ul li{
+    list-style: none;
+    font-size: 24px;
+    align-items:center;
+    /* text-decoration: none; */
+    } 
+header .navbar .right-list ul li button {
+     padding: 10px 20px;
+     border: 1px solid red;
+     border-radius: 10px;
+    }
+ header .navbar .right-list ul li button a{
+    color: red;
+ }
+header .navbar .right-list ul li a{
+    text-decoration: none;
+}
+.sec-one{
+    /* line-height:300px; */
+    background-color: #f5f4f0;
+    height:844px;
+    display: flex;
+}
+.sec-one  div {
+    /* margin-top: 60px; */
+    padding-top: 300px;
+    padding-left: 70px;
+
+
+}
+.sec-one  .col-one h1{
+    font-size: 40px;
+}
+.sec-one  .col-one  p{
+    font-size: 24px;
+}
+.sec-one  .col-one button{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+    /* color: white; */
+}
+.sec-one  .col-one button a{
+    color: white;
+}
+.sec-one  .col-two img{
+    margin-top: -299px;
+}
+.sec-two{
+     background-color: #f5f4f0;
+     /* height: 800px; */
+     margin-top: -135px;
+}
+.sec-two div{
+    height: 150px;
+    margin-top: 10%;
+    font-size: 35px;
+    font-family: 'Lumanosimo', cursive;
+    text-align: center;
+}
+.sec-two div p{
+    /* margin-left: -30px; */
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 90px 0;
+    margin-top: -160px;
+    text-align: center;
+}
+.sec-two .layler{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 100px;
+    justify-content:space-between;
+    padding-top: 200px;
+}
+.sec-two .layler p{
+    align-items: center;
+    font-size: 30px;
+}
+.sec-two .btn-1{
+    margin-top: 100px ;
+}
+.sec-two .btn-1 button{
+    border: 2px solid black;
+    width: 190px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: black;
+}
+.sec-two .btn-1 button a{
+    color: white;
+    font-size: large;
+}
+.sec-three .gallary-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    /* background-color: #f5f4f0; */
+}
+
+.sec-three .gallary-1 h1{
+    /* margin-left: 40px; */
+    text-align: center;
+    padding: 30px 0;
+    background-color: #f5f4f0;
+}
+.sec-four{
+    background-color:#f5f4f0;
+    height: 1000px;
+}
+.sec-four .btn-2 button {
+    width: 280px;
+    height: 50px;
+    margin-left: 530px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.sec-four .btn-2 .para-1{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 50px;
+    /* width:900px ; */
+}
+.sec-four  .para-2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 750px;
+    color: blue;
+    margin-left: 300px;
+}
+.sec-four .video{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height:900px; */
+}
+.sec-four video{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+.sec-four .video .video-1{
+    margin-top: -25px;
+}
+
+.sec-four .video .accer h2{
+    text-align: center;
+    width: 200px;
+    margin-left: 50px;
+}
+.sec-four .btn-3{
+    margin-left:570px;
+    margin-top: 60px;
+}
+.sec-four .btn-3 button {
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    border: 2px solid black ;
+}
+.sec-four .btn-3 button a{
+    color: white;
+}
+footer .end{
+    background-color:#f5f4f0; ;
+    display: flex;
+    justify-content:space-evenly;
+}
+header .navbar .right-list ul li a:hover{
+    color: red;
+}
+.sec-one .col-one button:hover{
+    background-color: rgb(183, 123, 240);
+    border: 1px solid black ;
+}
+.sec-two .btn-1 button:hover{
+    background-color: rgb(183, 123, 240);
+    border: 1px solid black ;    
+}
+.sec-four .btn-2 button:hover{
+    background-color: rgb(183, 123, 240);
+    border: 1px solid black ;
+}
+.sec-four .btn-3 button:hover{
+    background-color: rgb(183, 123, 240);
+    border: 1px solid black ;
+}
